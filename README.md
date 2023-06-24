@@ -26,7 +26,7 @@ For filters in the listing endpoint, the following parameters can be used in the
 
 > /api/v1/movies/list_catalog?genre=TV Show
 
-> /api/v1/movies/list_catalog?year=2020&country=Estados Unidos
+> /api/v1/movies/list_catalog?year=2020&country=United States
 
 <hr>
 
