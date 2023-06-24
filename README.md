@@ -19,3 +19,19 @@ Copy the *.env_sample* file to the project's root folder and create a file named
 > /api/v1/movies/import_catalog
 
 > /api/v1/movies/list_catalog
+
+For filters in the listing endpoint, the following parameters can be used in the request -> *title, genre, country, published_at, year, description*.
+
+***examples:***
+
+> /api/v1/movies/list_catalog?genre=TV Show
+
+> /api/v1/movies/list_catalog?year=2020&country=Estados Unidos
+
+<hr>
+
+**TESTS**
+
+To run tests, run the command below in the console
+
+<code>$ rspec spec</code>
