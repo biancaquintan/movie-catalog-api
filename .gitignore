@@ -31,3 +31,5 @@
 
 /Gemfile
 /.env
+
+.byebug_history
